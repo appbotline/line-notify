@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
         auth: {
-          bearer: 'YihjvoOhJLUsOaR3GVtYA8kDra93aT24p2W9ERSxkfP', //token
+          bearer: 'O76bVtZeMQjCKAgGlmfT7hR43fZs9UAmyA1oNsgU2d6', //token
         },
         form: {
           message: newPage, //ข้อความที่จะส่ง
