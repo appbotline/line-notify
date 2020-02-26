@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   
   (async () => {
     const browser = await puppeteer.launch();
-    console.log("YihjvoOhJLUsOaR3GVtYA8kDra93aT24p2W9ERSxkfP");
+    console.log("xxxxxxxxxxxxxxxxxxx");
     //var q = querystring.parse('year=2017&month=february');
     page = await browser.newPage();
     //await page.goto('https://glacial-spire-22413.herokuapp.com/write.php', { waitUntil: 'load' });
@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
         auth: {
-          bearer: 'O76bVtZeMQjCKAgGlmfT7hR43fZs9UAmyA1oNsgU2d6', //token
+          bearer: 'YihjvoOhJLUsOaR3GVtYA8kDra93aT24p2W9ERSxkfP', //token
         },
         form: {
           message: newPage, //ข้อความที่จะส่ง
