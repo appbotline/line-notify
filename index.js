@@ -2,7 +2,7 @@ var express = require("express");
 const puppeteer = require('puppeteer');
 const request = require('request');
 var app = express(); //
-var messageLine = "";
+var messageLine = "VbNK3L1FYgMkEdg5gOczA0qUAWGr1N9KcHbLiiauNLw";
 app.set('port', (process.env.PORT || 80));
 app.get("/", (req, res) => {
     // server จะสามารถส่งทั้ง header ต่างๆหรือจะตัวหนังสือ json อะไรก็ได้กลับไป
@@ -83,7 +83,7 @@ app.get("/", (req, res) => {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
             auth: {
-                bearer: 'O76bVtZeMQjCKAgGlmfT7hR43fZs9UAmyA1oNsgU2d6', //token
+                bearer: 'VbNK3L1FYgMkEdg5gOczA0qUAWGr1N9KcHbLiiauNLw', //token
             },
             form: {
                 message: message, //ข้อความที่จะส่ง
